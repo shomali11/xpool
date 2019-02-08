@@ -16,7 +16,7 @@ func main() {
 
 	for i := 0; i < 10; i++ {
 		go func() {
-			object := pool.Borrow().(*Object)
+			object := pool.Get().(*Object)
 			pool.Return(object)
 		}()
 	}

@@ -14,8 +14,8 @@ func NewPool(max int, factory func() interface{}) *Pool {
 	}
 }
 
-// Borrow an item from the pool.
-func (p *Pool) Borrow() interface{} {
+// Get an item from the pool.
+func (p *Pool) Get() interface{} {
 	select {
 	case item := <-p.pool:
 		return item
@@ -24,7 +24,7 @@ func (p *Pool) Borrow() interface{} {
 	}
 }
 
-// Return returns an item to the pool.
+// Return an item to the pool.
 func (p *Pool) Return(item interface{}) {
 	select {
 	case p.pool <- item:
