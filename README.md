@@ -1,4 +1,4 @@
-# xpool [![Go Report Card](https://goreportcard.com/badge/github.com/shomali11/xpool)](https://goreportcard.com/report/github.com/shomali11/xpool) [![GoDoc](https://godoc.org/github.com/shomali11/xpool?status.svg)](https://godoc.org/github.com/shomali11/xpool) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# xpool [![Build Status](https://travis-ci.com/shomali11/xpool.svg?branch=master)](https://travis-ci.com/shomali11/xpool) [![Go Report Card](https://goreportcard.com/badge/github.com/shomali11/xpool)](https://goreportcard.com/report/github.com/shomali11/xpool) [![GoDoc](https://godoc.org/github.com/shomali11/xpool?status.svg)](https://godoc.org/github.com/shomali11/xpool) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A pool to facilitate the creation and reuse of objects
 
